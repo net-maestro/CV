@@ -1,0 +1,68 @@
+/* print.css */
+
+@media print {
+    /* Базовые настройки типографики */
+    body {
+        background: linear-gradient(#ffffff, #222 50%, #ffffff 50%, #222);
+    }
+  
+  
+    /* Настройка отступов для страницы */
+    @page {
+      margin: 1cm;
+    }
+  
+    h1 {
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        color: #2196f3;
+        margin-bottom: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    
+    p {
+        line-height: 1.5;
+    }
+    
+    section + section {
+        margin-top: 1rem;
+    }
+    
+    
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 0.9rem;
+    }
+    
+    a:hover {
+        color: slateblue;
+    }
+    
+    /* Изображения */
+    img {
+      max-width: 100%;
+      height: auto;
+      page-break-inside: avoid; /* Избегаем разрыва страницы внутри изображения */
+    }
+  
+    /* Дополнительные настройки */
+    .no-print {
+      display: none;
+    }
+  
+    .page-break {
+      page-break-before: always;
+    }
+  }
+  

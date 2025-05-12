@@ -1,0 +1,85 @@
+{
+    "profile": {
+      "name": "Яцко Григорій",
+      "title": "СисОпс / Мережевий Інженер"
+    },
+    "contact": {
+      "title": "Контактна інформація",
+      "email": "frontyatsko@gmail.com",
+      "website": "netmaestro.tech",
+      "phone": "+38 097 689 35 45",
+      "telegram": "@ITW78"
+    },
+    "objective": {
+      "title": "Ціль",
+      "text": "СисОпс / Мережевий Інженер"
+    },
+    "skills": {
+      "title": "Навички",
+      "tools": "Інструменти та технології",
+      "frameworks": "Фреймворки та бібліотеки",
+      "toolsList": {
+        "Unix/Linux": { "name": "Unix/Linux", "value": 65, "color": "blue" },
+        "Network": { "name": "Network", "value": 80, "color": "green" },
+        "Python": { "name": "Python", "value": 60, "color": "yellow" },
+        "Bash": { "name": "Bash", "value": 50, "color": "orange" },
+        "HTML": { "name": "HTML", "value": 70, "color": "red" },
+        "CSS": { "name": "CSS", "value": 60, "color": "purple" },
+        "JavaScript": { "name": "JavaScript", "value": 50, "color": "teal" },
+        "MySQL": { "name": "MySQL", "value": 60, "color": "brown" }
+      },
+      "frameworksList": {
+        "Flask": { "name": "Flask", "value": 70, "color": "blue" },
+        "FastAPI": { "name": "FastAPI", "value": 70, "color": "green" },
+        "Django": { "name": "Django", "value": 50, "color": "yellow" },
+        "Vue.js": { "name": "Vue.js", "value": 50, "color": "orange" }
+      }
+    },
+    "hobbies": {
+      "title": "Хобі",
+      "list": ["Баскетбол", "Гірські лижі"]
+    },
+    "education": {
+      "title": "Освіта",
+      "school": "КИЇВСЬКИЙ АВІАЦІЙНИЙ ТЕХНІКУМ",
+      "degree": "Економіка підприємства",
+      "description": "Теорія мікро та макро економіки."
+    },
+    "experience": {
+      "title": "Досвід роботи",
+      "list": [
+        {
+          "title": "Мережевий Інженер",
+          "company": "ISP \"FORYOUNET\"",
+          "duration": "2023 - Present",
+          "description": "Техпідтримка."
+        },
+        {
+          "title": "Мережевий Інженер",
+          "company": "ISP \"GOLDENNET\"",
+          "duration": "2019 - 2023",
+          "description": "Планування та налаштування комп'ютерних мереж. Розробка та експлуатація білінгових систем. Написання Скриптів. Mikrotik, Juniper, Dlink, Huawei, Cisco, Bdcom, C-Data, Zyxel, Edge-Core, HPE, Dell, Ubiquiti, Hikvision, Dahua, Windows Server, Hyper-V / VMware, Wireshark, Zabbix, Observium, Librenms, Grafana, VSCode, Postman, Navicat, Freepbx, Docker, Graylog, Git."
+        },
+        {
+          "title": "Інженер Моніторингу Мережі",
+          "company": "ISP \"EUROLAN\"",
+          "duration": "2017-2019",
+          "description": "Моніторинг роботи мережі: активне обладнання, сервери, сервіси. OSI, TCP, UDP, Ethernet, ARP, IP, ICMP, NAT, Routing, VPN, BGP, OSPF, SNMP, POP, IMAP, HTTP(s), Telnet, SSH, DNS, DHCP, RADIUS."
+        },
+        {
+          "title": "Фахівець Ліній Волоконно-Оптичного Зв'язку",
+          "company": "ISP \"TRIOLAN\"",
+          "duration": "2015-2017",
+          "description": "Ремонт та будівництво нових мереж оптичного інтернету. Технічне обслуговування електронних та оптичних установок."
+        }
+      ]
+    },
+    "languages": {
+      "title": "Мови",
+      "list": [
+        { "name": "Англійська", "level": "Pre Intermediate" },
+        { "name": "Українська", "level": "Рідна" }
+      ]
+    }
+  }
+  

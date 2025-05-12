@@ -1,0 +1,255 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta property="og:image" content="https://pbs.twimg.com/media/DzJ9uqGWsAIc_QA.jpg"/>
+    <meta name="keywords"
+          content="Network, Engineer, Dev,Ops,Linux,Python,ISP, Cisco,Mikrotik,Juniper,Dlink,Hikvision,Dahua, Интернет, Киев,Sport"/>
+    <meta name="description"
+          content="Network, Engineer, Dev,Ops, Linux, Python, ISP, Cisco,Mikrotik,Juniper,Dlink,Hikvision,Dahua, Интернет, Киев,Sport"/>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+
+    <meta name="pdfkit-user-style-sheet " content="Style"/>
+
+    <title>CV</title>
+  
+</head>
+<body>
+
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+<a href="/pdf" class="cv_btn" target="blank"><i class="fa fa-file-pdf-o" aria-hidden="true" title="Завантажити PDF"></i></a>
+<br>
+<a href="/en" class="cv_btn"><i class="fa fa-language" aria-hidden="true" title="Версія EN"></i></a>
+<br>
+{% if ip_site not in ip %}
+<span class="ip-info">Ви зайшли з : {{ip}}</span>
+{% endif %}
+<div class="resume">
+   
+    <div class="column">
+
+        <section class="profile">
+ 
+
+            <h2>Яцко Григорій </h2>
+            <p>SysOps / Network Engineer</p>
+            <img src="{{url_for('static', filename='img/cv1.jpg')}}" alt="face" id="pic">
+        </section>
+        <section class="contact">
+            <h2>Контакти</h2>
+            <ul>
+                <li>
+                    <a href="mailto:frontyatsko@gmail.com" title="mailto:frontyatsko@gmail.com">
+                        <i class="fa fa-envelope" aria-hidden="true"></i> frontyatsko@gmail.com
+                    </a>
+                </li>
+                <li>
+                    <a href="https://netmaestro.tech" title="https://netmaestro.tech">
+                        <i class="fa fa-globe" aria-hidden="true"></i> netmaestro.tech
+                    </a>
+                </li>
+                <li>
+                    <a href="tel:+380976893545" title="tel:+380976893545">
+                        <i class="fa fa-phone"></i> +38 097 689 35 45
+                    </a>
+                </li>
+                <li>
+                    <a href="https://t.me/ITW78" target="_blank" title="https://t.me/ITW78">
+                        <i class="fa fa-telegram"></i> @ITW78
+                    </a>
+                </li>
+
+            </ul>
+        </section>
+        <section class="objectives">
+            <p>
+                Мета: Знайти роботу, яка приноситиме задоволення та гідний дохід.
+                Працювати в команді однодумців, де є можливість застосувати знання та набути нових.
+            </p>
+        </section>
+        <section class="social">
+            <ul>
+                <li><a href="https://www.instagram.com/grigoriyyatsko/" title="https://www.instagram.com/grigoriyyatsko">Instagram</a></li>
+                <li><a href="https://github.com/HackTeam87/" title="https://www.instagram.com/grigoriyyatsko">Github</a></li>
+            </ul>
+        </section>
+        <section class="skills">
+            <h2>Скіли</h2>
+            <ul>
+                <ol>
+                    <h3>Інструменти</h3>
+                </ol>
+                <ul>
+                    <li class="linux">Unix/Linux 65%</li>
+                    <!--                    <li class="aws">AWS 20%</li>-->
+                    <li class="networking">Network 80%</li>
+                    <li class="python">Python 60%</li>
+                    <li class="bash">Bash 50%</li>
+                    <li class="html">HTML 70%</li>
+                    <li class="css">CSS 60%</li>
+                    <li class="js">JS 50%</li>
+                    <li class="js">Mysql 60%</li>
+                </ul>
+
+            </ul>
+            <ul>
+                <ol><h3>Фреймворки</h3></ol>
+                <ul>
+                    <li class="flask">Flask 70%</li>
+                    <li class="flask">Fast Api 70%</li>
+                    <li class="django">Django 50%</li>
+                    <li class="vue">Vue.js 50%</li>
+                </ul>
+            </ul>
+            <ul>
+                <ol><h3>Хоббі</h3></ol>
+                <ul>
+                    <ol>
+                        Баскетбол
+                    </ol>
+                    <ol>
+                        Гірські лижі
+                    </ol>
+
+                </ul>
+            </ul>
+        </section>
+    </div>
+    <div class="column">
+        <section class="education">
+            <h2>Освіта</h2>
+            <ul class="timeline">
+                <li class="event">
+        <span class="duration">
+
+        </span>
+                    <div class="content">
+                        <h3>ДЕРЖАВНИЙ УНІВЕРСИТЕТ ТЕЛЕКОМУНІКАЦІЙ</h3>
+                        <p><em>DevOps Engeneer (Cloud)</em></p>
+                        <p>
+                            «Технології Інтернету речей»,
+                            <br>
+                            «Хмарні технології (huawei)", "Технологія VoIP»,
+                            «Моделювання інформаційних систем».
+                        </p>
+                    </div>
+                </li>
+                <li class="event">
+        <span class="duration">
+
+        </span>
+                    <div class="content">
+                        <h3>КИЇВСЬКИЙ АВІАЦІЙНИЙ ТЕХНІКУМ</h3>
+                        <p><em>Економіка підприємства</em></p>
+                        <p>
+                            Теорія мікро та макро економіки.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="experience">
+            <h2>Досвід</h2>
+            <ul class="timeline">
+                <li class="event">
+                    <span class="duration">
+                      2023 - Present
+                    </span>
+                                <div class="content">
+                                    <h3>
+                                        Мережевий Інженер
+                                    </h3>
+                                    <p>ISP "FORYOUNET"</p>
+                                    <p>
+                                        Техпідтримка 
+                                        <br>
+                                    </p>
+                                </div>
+                            </li>
+
+                <li class="event">
+        <span class="duration">
+          2019 - 2023
+        </span>
+                    <div class="content">
+                        <h3>
+                            Мережевий Інженер
+                        </h3>
+                        <p>ISP "GOLDENNET"</p>
+                        <p>
+                            Планування та налаштування комп'ютерних мереж.
+                            Розробка та експлуатація білінгових систем.
+                            Написання Скриптів.
+                            <br>
+                            {
+                            Mikrotik, Juniper, Dlink, Huawei, Cisco, Bdcom, C-Data, Zyxel,
+                            Edge-Core, HPE, Dell, Ubiquiti, Hikvision, Dahua, Windows Server, Hyper-V / VMware,
+                            Wireshark, Zabbix, Observium, Librenms, Grafana,
+                            VSCode, Postman, Navicat, Freepbx, Docker, Graylog, Git
+                            }
+                        </p>
+                    </div>
+                </li>
+                <li class="event">
+        <span class="duration">
+          2017-2019
+        </span>
+                    <div class="content">
+                        <h3> Інженер Моніторингу Мережі </h3>
+                        <p>ISP "EUROLAN"</p>
+                        <p>
+                            Моніторинг роботи мережі: активне обладнання, сервери, сервіси.
+                             <br>
+                             {
+                             OSI, TCP, UDP, Ethernet, ARP, IP, ICMP,
+                             NAT, Routing, VPN ,BGP, OSPF, SNMP, POP, IMAP,
+                             HTTP(s), Telnet, SSH, DNS, DHCP, RADIUS
+                             }
+                        </p>
+                    </div>
+                </li>
+                <li class="event">
+        <span class="duration">
+          2015-2017
+        </span>
+                    <div class="content">
+                        <h3>
+                            Фахівець з волоконно-оптичних ліній зв'язку
+                        </h3>
+                        <p>ISP "TRIOLAN"</p>
+                        <p>
+                            Ремонт та будівництво нових оптичних інтернет-мереж.
+                            Технічне обслуговування електронної та оптичної установки.
+                            сервіс.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="lang">
+            <h2>Мова</h2>
+            <div class="content">
+                <h3>Англійська</h3>
+                <p>Pre Intermediate</p>
+
+                <h3>Українська</h3>
+                <p>Native</p>
+
+            </div>
+        </section>
+    </div>
+
+</div>
+
+
+</body>
+</html>
+
+
